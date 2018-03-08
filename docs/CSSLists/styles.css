@@ -29,3 +29,6 @@ th:hover {
 body {
 	background-color: rgb(0,255,0);
 }
+div #box1 {
+background-color: rgb(0,0,255);
+}
