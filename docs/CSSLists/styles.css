@@ -14,6 +14,7 @@ ul.square {
 }
 li {
     background: blue;
+    color:yellow;
     margin: 5px;
 }
 ul {
