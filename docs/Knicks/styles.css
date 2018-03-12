@@ -27,19 +27,32 @@ li {
 body, html {
     height: 100%;
 }
+html, body {
+
+margin:0;
+padding:0;
+}
+div {
+	margin:0;
+padding:0;
+}
 
 .bg { 
 
     background-image: url("images/dunk.jpg");
 
-    height: 100%; 
+    height: 100%;
+    width: 100%; 
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
-.blackbox {
-	overflow: hidden;
-	width: 30%;
-	background: black;
+.bgbottom{
+	height:100%;
+	width: 100%;
+	background: linear-gradient(#ffffff00 0%, black 65%);
+
 }
+
