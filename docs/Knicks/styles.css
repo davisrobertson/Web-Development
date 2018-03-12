@@ -1,0 +1,45 @@
+h1 {
+	font-size: 48pt;
+	text-align: center;
+	color:#006BB6;
+}
+
+li {
+		font-size: 32pt;
+	font-family:verdana;
+	content: "•"; color: #F58426;
+}
+.link {
+	font-size: 24pt;
+	font-family:verdana;
+	text-decoration-color: #F58426;
+	color: #006BB6;
+}
+.CenteredImage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    max-height: 400px;
+    max-width:333.333px;
+}
+body, html {
+    height: 100%;
+}
+
+.bg { 
+
+    background-image: url("images/dunk.jpg");
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blackbox {
+	overflow: hidden;
+	width: 30%;
+	background: black;
+}
