@@ -4,11 +4,13 @@ h1 {
 	color:#006BB6;
 }
 
-li {
+p {
+	text-align: center;
 		font-size: 32pt;
 	font-family:verdana;
 	content: "•"; color: #F58426;
 }
+
 .link {
 	font-size: 24pt;
 	font-family:verdana;
@@ -21,8 +23,8 @@ li {
     margin-right: auto;
     width: 50%;
     height: auto;
-    max-height: 400px;
-    max-width:333.333px;
+    max-height: 300px;
+    max-width:190.5px;
 }
 body, html {
     height: 100%;
