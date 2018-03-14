@@ -4,11 +4,21 @@ h1 {
 	color:#006BB6;
 }
 
-p {
+.mainpagetext {
 	text-align: center;
 		font-size: 32pt;
 	font-family:verdana;
-	content: "•"; color: #F58426;
+}
+.smalltext {
+	text-align: left;
+	font-size: 24pt;
+	font-family:verdana;
+	max-width: 60%;
+	overflow: scroll;
+	margin-left: 20%;
+	height: 84%;
+	word-wrap: break-word;
+
 }
 
 .link {
@@ -29,7 +39,7 @@ p {
 body, html {
     height: 100%;
 }
-html, body {
+body, html {
 
 margin:0;
 padding:0;
@@ -51,12 +61,30 @@ padding:0;
     background-size: cover;
 
 }
-.bgbottom {
-	height:100%;
-	width: 100%;
-	background: linear-gradient(#ffffff00 0%, black 65%);
+.subbg { 
 
+    background-image: url("images/repeatlogo.jpg");
+
+    height: 100%;
+    width: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bgbottom {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(#ffffff00 0%, white 65%);
+
+}
+.bgsides {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, #ffffff00 0%, white 20%, white 80%, #ffffff00 100%);
 }
 .overflow {
  overflow: scroll;
 }
+* { margin: 0; padding: 0; border: none; }
