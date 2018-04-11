@@ -1,0 +1,25 @@
+#backgroundC {
+	background-color: blue;
+}
+.bigText {
+	font-size: 48pt;
+	margin-left: 20px;
+}
+.leftMargin {
+		margin-left: 20px;
+}
+* {
+margin: 0;
+padding: 10;
+}
+#centerDiv {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: red;
+	height: 200px;
+	width: 60%;
+}
