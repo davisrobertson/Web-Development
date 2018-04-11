@@ -24,4 +24,5 @@ padding: 10;
 	width: 60%;
 	overflow: scroll;
 	border-radius:25px;
+	border: 6px solid red;
 }
