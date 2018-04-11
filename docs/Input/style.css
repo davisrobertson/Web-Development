@@ -26,3 +26,11 @@ padding: 10;
 	border-radius:25px;
 	border: 6px solid red;
 }
+.buttonLooks {
+	background-color: red;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
