@@ -1,0 +1,52 @@
+document.getElementById("buttonEncode").addEventListener("click", encode);
+document.getElementById("buttonDecode").addEventListener("click", decode);
+var outPut = document.getElementById("output");
+
+
+function encode() {
+	var key = document.getElementById("inputKey").value;
+	var input = document.getElementById("inputMessage").value;
+  //console.log("Button Pressed");
+    //console.log(input);
+    var length = input.length;
+
+        outPut.innerHTML = ("");
+
+    for (var i = 0; i < length; i++) {
+    var charCode = input.charCodeAt(i);
+    //console.log("i=" + i);
+    //console.log("charCode=" + charCode);
+    key = parseInt(key);
+    var letter = charCode + key;
+    //console.log("letter=" + letter);
+
+    var PrintNew = (String.fromCharCode(letter));
+    //console.log(PrintNew);
+    
+    outPut.innerHTML += PrintNew;
+}
+}
+
+function decode() {
+        var key = document.getElementById("inputKey").value;
+    var input = document.getElementById("inputMessage").value;
+  //console.log("Button Pressed");
+    //console.log(input);
+    var length = input.length;
+
+        outPut.innerHTML = ("");
+
+    for (var i = 0; i < length; i++) {
+    var charCode = input.charCodeAt(i);
+    //console.log("i=" + i);
+    //console.log("charCode=" + charCode);
+    key = parseInt(key);
+    var letter = charCode - key;
+    //console.log("letter=" + letter);
+
+    var PrintNew = (String.fromCharCode(letter));
+    //console.log(PrintNew);
+    
+    outPut.innerHTML += PrintNew;
+}
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: skyblue;
+}
+#output {
+	font-size: 24pt;
+	font-weight: bold;
+	color: darkred;
+}
+p, button, input, div {
+	font-size: 18pt;
+	color: darkred;
+	padding: 4px;
+	margin: 10px;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
