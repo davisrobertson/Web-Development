@@ -1,6 +1,6 @@
 document.getElementById("buttonEncode").addEventListener("click", encode);
 document.getElementById("buttonDecode").addEventListener("click", decode);
-document.getElementById("buttonDecrypt").addEventListener("click", decrypt)
+document.getElementById("buttonDecrypt").addEventListener("click", decrypt);
 var outPut = document.getElementById("output");
 
 
