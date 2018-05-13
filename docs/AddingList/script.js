@@ -31,6 +31,7 @@ var newListItem = document.createElement("li");
 })
 
 firebase.database().ref("Davis/inputs").on("child_removed", function(snapshot){
+	console.log("A CHILD HAS BEEN REMOVED")
 console.log(snapshot.val());
 var stayedValues = snapshot.val();
 var newListItem = document.createElement("li");
