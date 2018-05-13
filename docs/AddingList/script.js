@@ -30,6 +30,16 @@ var newListItem = document.createElement("li");
   location.appendChild(newListItem);
 })
 
+firebase.database().ref("Davis/inputs").on("child_removed", function(snapshot){
+console.log(snapshot.val());
+var stayedValues = snapshot.val();
+var newListItem = document.createElement("li");
+  var newListItemText = document.createTextNode(stayedValues);
+  newListItem.appendChild(newListItemText);
+  var location = document.getElementById("output");
+  location.appendChild(newListItem);
+})
+
 
 
 document.getElementById("addElement").addEventListener("click", addElement);
