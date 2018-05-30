@@ -1,0 +1,72 @@
+body{
+	background-color: #FFFFFF;
+}
+
+#messageInput{
+	left: 50%;
+		position: fixed;
+	bottom: 7%;
+	width: 49%;
+}
+
+li{
+	font-size: 130%;
+	background-color: #FFFFFF	;
+	width: 100%;
+  overflow-wrap: break-word;
+}
+
+#sendMessage{
+    position: fixed;
+    right: 1%;
+	bottom: 1%;
+
+}
+
+#halfScreen{
+	width: 50%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+#otherHalfScreen{
+	position: fixed;
+	right: 0%;
+	bottom: 0%;
+	width: 50%;
+	height: 100%;
+	background-color: #F1F1F1;
+}
+h1{
+	margin: 5px;
+}
+
+#hello{
+}
+
+#home{
+}
+
+#variableNavigation {
+	width: 99%;
+}
+
+#variableNavigationButton {
+	margin:5px;
+    position: fixed;
+    right: 1%;
+}
+
+#RefreshButton {
+    margin: 5px;
+}
+
+.buttonsClass{
+		border-radius: 5px;
+    border: 2px solid #CE684D;
+    background-color: #D54937;
+    /*font-weight: bolder;*/
+    font-size: 120%;
+    color: #FFFFFF;
+    padding: 5px;
+}
