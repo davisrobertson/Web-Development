@@ -8,12 +8,7 @@
 	<script type="text/javascript" src="fb.js" defer></script>
 	<script type="text/javascript" src="script.js" defer></script>
 </head>
-<body>
-	<div id="halfScreen">
-	<ul id="output">
-		
-	</ul>
-	</div>
+<body id="bodyid">
 	<div id="otherHalfScreen">
 				<button id="RefreshButton" class="buttonsClass">Sign In</button>
 		<h1>Click the buttons below to navigate different rooms.</h1>
@@ -21,12 +16,20 @@
 		<button id="home" class="buttonsClass">Home</button>
 		<br>
 		<h1>Enter the name of a room below and click navigate.</h1>
-		<input type="search" id="variableNavigation">
+		<input type="search" id="variableNavigation" placeholder="Room" class="inputsClass">
 		<br>
 		<button id="variableNavigationButton" class="buttonsClass">Navigate</button>
 	</div>
-		<input type="search" id="messageInput">
-	<button id="sendMessage" class="buttonsClass">Send Message</button>
+					<div id="survivdiv"></div>
 
+	<div id="halfScreen">
+		<br>
+	<ul id="output">
+		
+	</ul>
+	</div>
+	
+		<input type="search" id="messageInput" placeholder="Message" class="inputsClass">
+	<button id="sendMessage" class="buttonsClass">Send Message</button>
 </body>
 </html>
